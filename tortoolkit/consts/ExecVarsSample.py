@@ -1,14 +1,14 @@
 try:
     from .ExecVars import ExecVars
-except:
+except
     class ExecVars:
         # TODO optimize for vps use fully - currently only heroku is focused
         # Set true if its VPS [currently not fully working]
         IS_VPS = False
-        API_HASH = "d0def2fadec58c31403bf01a71454019"
-        API_ID = "2876934"
-        BOT_TOKEN = "1662323956:AAEij3cLkUsxMiLrnnnSlLxK_Ngz4rWX9UE"
-        BASE_URL_OF_BOT = "https://nobittk001.herokuapp.com/"
+        API_HASH = "d0def2fadec58c3403bf01a71454019"
+        API_ID = "287934"
+        BOT_TOKEN = "16623256:AAEij3cLkUsxMiLrnnnSlLxK_Ngz4rWX9UE"
+        BASE_URL_OF_BOT = "https://nobttk001.herokuapp.com/"
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
         ALD_USR = [1458912827,1467018377,1546675358,1444150889,1482853408,1333689035,935041758,992574970,-100374414317,-1001479070385,-100320640070,-1001422326809]
         
